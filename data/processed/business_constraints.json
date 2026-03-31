@@ -1,0 +1,48 @@
+{
+    "port_constraints": [
+        {
+            "port": "GENOVA",
+            "min_inventory": 0.0,
+            "max_inventory": 999999.0,
+            "priority_weight": 1.0,
+            "service_level_target": null
+        },
+        {
+            "port": "GIOIA TAURO",
+            "min_inventory": 0.0,
+            "max_inventory": 999999.0,
+            "priority_weight": 1.0,
+            "service_level_target": null
+        },
+        {
+            "port": "LA SPEZIA",
+            "min_inventory": 0.0,
+            "max_inventory": 999999.0,
+            "priority_weight": 1.0,
+            "service_level_target": null
+        },
+        {
+            "port": "LIVORNO",
+            "min_inventory": 0.0,
+            "max_inventory": 999999.0,
+            "priority_weight": 1.0,
+            "service_level_target": null
+        },
+        {
+            "port": "TRIESTE",
+            "min_inventory": 0.0,
+            "max_inventory": 999999.0,
+            "priority_weight": 1.0,
+            "service_level_target": null
+        }
+    ],
+    "global_service_level_target": 0.9,
+    "budget": {
+        "is_hard_limit": false,
+        "limit_value": 1000000.0,
+        "violation_penalty_per_unit": 1.5
+    },
+    "shortage_penalty": 100.0,
+    "surplus_penalty": 50.0,
+    "global_max_moves_teu": null
+}

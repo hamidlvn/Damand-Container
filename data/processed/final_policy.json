@@ -1,0 +1,28 @@
+{
+    "report_id": "REPORT-B1BF52D3",
+    "problem_id": "PROB-1072873f",
+    "generated_at": "2026-03-31T23:08:17.110894",
+    "policy_status": "partial",
+    "selected_solver": "Heuristic",
+    "actions": [],
+    "summary": {
+        "total_repositioned_teu": 0.0,
+        "total_estimated_cost": 0.0,
+        "expected_service_level": 0.7492,
+        "remaining_unmet_demand_teu": 182152.12,
+        "remaining_surplus_teu": 0.0
+    },
+    "explanation": {
+        "solver_selection_reason": "Solver 'Heuristic' was selected by the evaluation layer. 'Heuristic' ranked first based on the following priority rules (applied lexicographically): feasibility status, unmet demand (TEU), total transport cost, solve time. It achieved status='feasible', unmet_demand=182152.12 TEU, cost=$0.00, service_level=74.92%.",
+        "policy_description": "Solver 'Heuristic' produced no repositioning actions (status: feasible). No container movements are recommended.",
+        "limitations": [
+            "Residual unmet demand of 182,152.1 TEU remains after all repositioning actions — full demand coverage was not achievable within the given transport network and capacity."
+        ],
+        "warnings": [
+            "Service level is 74.9%, which is below the 80% warning threshold. Demand satisfaction is critically low."
+        ],
+        "trade_offs_accepted": [
+            "No significant trade-offs were identified between candidate solvers."
+        ]
+    }
+}

@@ -1,0 +1,77 @@
+2026-04-01 00:54:35,017 | INFO     | src.orchestrator.runner | Random seed applied: 42
+2026-04-01 00:54:35,017 | INFO     | src.orchestrator.runner | Run RUN-637F04B8 | mode=full | stages=['ingestion', 'demand', 'forecasting', 'constraints', 'capacity', 'problem_builder', 'solver_selection', 'optimization', 'evaluation', 'policy']
+2026-04-01 00:54:35,018 | INFO     | src.orchestrator.runner | ▶  Stage 1 – Data Ingestion
+2026-04-01 00:54:35,612 | INFO     | src.ingestion.loader | Loading raw dataset from: C:/Users/Hamid/Desktop/Damand Container/data/Italy_EmptyContainer_withSize_2018_2025.csv
+2026-04-01 00:54:35,618 | INFO     | src.ingestion.loader | Loaded 960 rows from raw dataset.
+2026-04-01 00:54:35,623 | INFO     | src.ingestion.loader | Executing strict Pandera schema validation...
+2026-04-01 00:54:35,677 | INFO     | src.ingestion.loader | Successfully saved validated dataset to: data\processed\cleaned_history.parquet
+2026-04-01 00:54:35,677 | INFO     | src.orchestrator.runner |   ✓ Stage 1 – Data Ingestion completed in 0.659s
+2026-04-01 00:54:35,677 | INFO     | src.orchestrator.runner | ▶  Stage 2 – Demand Management
+2026-04-01 00:54:35,679 | INFO     | src.demand.service | Starting Demand Management Processing. Reading from data\processed\cleaned_history.parquet
+2026-04-01 00:54:35,713 | INFO     | src.demand.aggregation | Aggregating dataset to frequency: ME
+2026-04-01 00:54:35,714 | INFO     | src.demand.aggregation | Aggregated 960 raw rows down to 960 period rows.
+2026-04-01 00:54:35,720 | INFO     | src.demand.service | Enforcing DemandSupplySignalSchema...
+2026-04-01 00:54:35,727 | INFO     | src.demand.service | Enforcing NetBalanceSchema...
+2026-04-01 00:54:35,749 | INFO     | src.demand.service | Demand layer complete. Signals saved to data\processed\historical_signals.parquet. Net Balance saved to data\processed\historical_net_balance.parquet.
+2026-04-01 00:54:35,749 | INFO     | src.orchestrator.runner |   ✓ Stage 2 – Demand Management completed in 0.072s
+2026-04-01 00:54:35,749 | INFO     | src.orchestrator.runner | ▶  Stage 3 – Forecasting
+2026-04-01 00:54:54,007 | INFO     | src.forecasting.service | Enforcing ModelEvaluationSchema...
+2026-04-01 00:54:54,023 | INFO     | src.forecasting.service | Enforcing ForecastResultSchema...
+2026-04-01 00:54:54,055 | INFO     | src.forecasting.service | Forecasting complete. Wrote 180 rows to data\processed\forecast_results.parquet.
+2026-04-01 00:54:54,055 | INFO     | src.orchestrator.runner |   ✓ Stage 3 – Forecasting completed in 18.306s
+2026-04-01 00:54:54,055 | INFO     | src.orchestrator.runner | ▶  Stage 4 – Constraints Modeling
+2026-04-01 00:54:54,091 | INFO     | src.constraints.service | Starting Constraints Parameterization Phase. Sifting from data\processed\forecast_results.parquet
+2026-04-01 00:54:54,098 | INFO     | src.constraints.service | Enforcing Constraints logical consistency validation...
+2026-04-01 00:54:54,098 | INFO     | src.constraints.validation | Constraints validation passed. Model is logically sound.
+2026-04-01 00:54:54,100 | INFO     | src.constraints.service | Stage 4 Constraints layer complete. Valid Constraints saved to data\processed\business_constraints.json.
+2026-04-01 00:54:54,100 | INFO     | src.orchestrator.runner |   ✓ Stage 4 – Constraints Modeling completed in 0.045s
+2026-04-01 00:54:54,100 | INFO     | src.orchestrator.runner | ▶  Stage 5 – Capacity Modeling
+2026-04-01 00:54:54,108 | INFO     | src.capacity.service | Starting Capacity Network Mapping. Scanning active nodes and periods.
+2026-04-01 00:54:54,121 | INFO     | src.capacity.service | Enforcing Voyage Leg logic bounds...
+2026-04-01 00:54:54,121 | INFO     | src.capacity.validation | Capacity network validation passed. Verified 360 voyages securely.
+2026-04-01 00:54:54,126 | INFO     | src.capacity.service | Stage 5 Capacity Modeling complete. 360 dynamic legs across 6 periods output validated to data\processed\transport_capacity.json.
+2026-04-01 00:54:54,126 | INFO     | src.orchestrator.runner |   ✓ Stage 5 – Capacity Modeling completed in 0.026s
+2026-04-01 00:54:54,128 | INFO     | src.orchestrator.runner | ▶  Stage 6 – Problem Builder
+2026-04-01 00:54:54,136 | INFO     | src.problem.service | Starting Mathematical Problem Formatting Orchestrator.
+2026-04-01 00:54:54,175 | INFO     | src.problem.service | Enforcing Matrix Dimensional logic constraints...
+2026-04-01 00:54:54,175 | INFO     | src.problem.validation | Structured Problem formulation validation passed. Matrices logically secure for optimization.
+2026-04-01 00:54:54,184 | INFO     | src.problem.service | Stage 6 Structured Integration complete.
+2026-04-01 00:54:54,185 | INFO     | src.problem.service | Total Dimension bounds parsed: [5] Ports mapped across [15] Temporal sequence indices.
+2026-04-01 00:54:54,186 | INFO     | src.problem.service | Generated strict output cleanly isolated safely to data\processed\structured_problem.json.
+2026-04-01 00:54:54,186 | INFO     | src.orchestrator.runner |   ✓ Stage 6 – Problem Builder completed in 0.058s
+2026-04-01 00:54:54,187 | INFO     | src.orchestrator.runner | ▶  Stage 7 – Solver Selection
+2026-04-01 00:54:54,191 | INFO     | src.solver_selection.service | Stage 7 – Solver Selection starting.
+2026-04-01 00:54:54,201 | INFO     | src.solver_selection.service | Features extracted — ports=5, periods=15, arcs=360, soft_budget=True, port_overrides=False
+2026-04-01 00:54:54,201 | INFO     | src.solver_selection.service | Strategy decided: SINGLE → ['Heuristic'] | hint=high
+2026-04-01 00:54:54,201 | INFO     | src.solver_selection.service | Reasoning: Problem is LARGE (arcs=360, periods=15). MILP may be computationally intractable at this scale; Heuristic is selected as primary with MILP as fallback on smaller sub-problems.
+2026-04-01 00:54:54,215 | INFO     | src.solver_selection.service | Stage 7 complete. SolverStrategy saved to data\processed\solver_strategy.json.
+2026-04-01 00:54:54,215 | INFO     | src.orchestrator.runner |   ✓ Stage 7 – Solver Selection completed in 0.027s
+2026-04-01 00:54:54,216 | INFO     | src.orchestrator.runner | ▶  Stage 8 – Optimization Solvers
+2026-04-01 00:54:54,284 | INFO     | src.optimization.runner | Stage 8 – Optimization Solvers starting.
+2026-04-01 00:54:54,306 | INFO     | src.optimization.runner | Running Heuristic solver …
+2026-04-01 00:54:54,306 | INFO     | src.optimization.runner |   [Heuristic] status=feasible | obj=18215212.31 | svc_level=74.92% | cost=0.00 | moves=0 | time=0.0s → data\processed\solver_result_heuristic.json
+2026-04-01 00:54:54,306 | INFO     | src.optimization.runner | Stage 8 complete.
+2026-04-01 00:54:54,306 | INFO     | src.orchestrator.runner |   ✓ Stage 8 – Optimization Solvers completed in 0.09s
+2026-04-01 00:54:54,306 | INFO     | src.orchestrator.runner | ▶  Stage 9 – Evaluation
+2026-04-01 00:54:54,306 | INFO     | src.evaluation.service | Stage 9 – Forecast Evaluation …
+2026-04-01 00:54:54,351 | INFO     | src.evaluation.service |   Forecast evaluation saved → data\processed\forecast_evaluation.json
+2026-04-01 00:54:54,351 | INFO     | src.evaluation.service | Stage 9 – Solver Evaluation …
+2026-04-01 00:54:54,370 | INFO     | src.evaluation.service |   Solver evaluation saved → data\processed\solver_evaluation.json (1 solver(s) compared, 1 unavailable)
+2026-04-01 00:54:54,371 | INFO     | src.evaluation.service | Stage 9 – Ranking …
+2026-04-01 00:54:54,371 | INFO     | src.evaluation.service |   Evaluation summary saved → data\processed\evaluation_summary.json
+2026-04-01 00:54:54,373 | INFO     | src.evaluation.service |   Best solver: Heuristic
+2026-04-01 00:54:54,373 | INFO     | src.evaluation.service | Stage 9 complete.
+2026-04-01 00:54:54,374 | INFO     | src.orchestrator.runner |   ✓ Stage 9 – Evaluation completed in 0.067s
+2026-04-01 00:54:54,374 | INFO     | src.orchestrator.runner | ▶  Stage 10 – Policy & Explainability
+2026-04-01 00:54:54,389 | INFO     | src.policy.service | Stage 10 – Policy generation. Best solver: Heuristic
+2026-04-01 00:54:54,390 | INFO     | src.policy.service |   Policy JSON saved → data\processed\final_policy.json
+2026-04-01 00:54:54,391 | INFO     | src.policy.service |   Policy Markdown saved → data\processed\final_policy_report.md
+2026-04-01 00:54:54,391 | INFO     | src.policy.service | Stage 10 complete. Status=partial | Actions=0 | TEU=0.0 | Cost=$0 | SvcLevel=74.9%
+2026-04-01 00:54:54,392 | INFO     | src.orchestrator.runner |   ✓ Stage 10 – Policy & Explainability completed in 0.018s
+2026-04-01 00:54:54,392 | INFO     | src.orchestrator.runner | 
+============================================================
+  Run RUN-637F04B8 COMPLETE
+  Stages: 10 executed | 0 skipped
+  Duration: 19.455s
+  Status: SUCCESS
+============================================================

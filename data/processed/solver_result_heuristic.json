@@ -1,0 +1,17 @@
+{
+    "problem_id": "PROB-1072873f",
+    "solver_name": "Heuristic",
+    "status": "feasible",
+    "objective_value": 18215212.31,
+    "total_cost": 0.0,
+    "service_level": 0.7492,
+    "unmet_demand_teu": 182152.12,
+    "surplus_remaining_teu": 0.0,
+    "solve_time_seconds": 0.0,
+    "decisions": [],
+    "diagnostics": {
+        "budget_violations": [],
+        "periods_solved": 15,
+        "total_moves": 0
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "best_solver": "Heuristic",
+    "ranking_explanation": "'Heuristic' ranked first based on the following priority rules (applied lexicographically): feasibility status, unmet demand (TEU), total transport cost, solve time. It achieved status='feasible', unmet_demand=182152.12 TEU, cost=$0.00, service_level=74.92%.",
+    "trade_off_notes": [],
+    "ranking_rules_applied": [
+        {
+            "field": "status_rank",
+            "direction": "asc"
+        },
+        {
+            "field": "unmet_demand_teu",
+            "direction": "asc"
+        },
+        {
+            "field": "total_cost",
+            "direction": "asc"
+        },
+        {
+            "field": "solve_time_seconds",
+            "direction": "asc"
+        }
+    ],
+    "ranked_solvers": [
+        {
+            "solver_name": "Heuristic",
+            "status": "feasible",
+            "status_rank": 1,
+            "objective_value": 18215212.31,
+            "total_cost": 0.0,
+            "service_level": 0.7492,
+            "service_level_pct": 74.92,
+            "unmet_demand_teu": 182152.12,
+            "surplus_remaining_teu": 0.0,
+            "solve_time_seconds": 0.0,
+            "total_moves": 0,
+            "budget_adherence": true,
+            "diagnostics": {
+                "budget_violations": [],
+                "periods_solved": 15,
+                "total_moves": 0
+            },
+            "rank": 1
+        }
+    ],
+    "forecast_summary": {
+        "aggregate_by_target": {
+            "inferred_demand": {
+                "mean_mae": 183.3122,
+                "mean_rmse": 214.1276,
+                "mean_smape": 0.9331,
+                "series_count": 10
+            },
+            "inferred_supply": {
+                "mean_mae": 238.561,
+                "mean_rmse": 274.4244,
+                "mean_smape": 1.7421,
+                "series_count": 10
+            },
+            "balance": {
+                "mean_mae": 151.6698,
+                "mean_rmse": 187.4557,
+                "mean_smape": 3.9044,
+                "series_count": 10
+            }
+        },
+        "overall_best_models": {
+            "inferred_demand": "Theta",
+            "inferred_supply": "HoltWinters",
+            "balance": "Ensemble"
+        }
+    }
+}

@@ -1,0 +1,1139 @@
+{
+    "series": [
+        {
+            "port": "GENOVA",
+            "container_type": "20DV",
+            "target_variable": "balance",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 149.8066,
+                    "rmse": 185.5271,
+                    "smape": 4.2807,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 146.3162,
+                    "rmse": 177.4821,
+                    "smape": 4.1701,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 398.0667,
+                    "rmse": 404.3614,
+                    "smape": 11.7422,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 216.1444,
+                    "rmse": 225.4823,
+                    "smape": 6.1989,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "HoltWinters",
+            "best_smape": 4.1701
+        },
+        {
+            "port": "GENOVA",
+            "container_type": "20DV",
+            "target_variable": "inferred_demand",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 123.7555,
+                    "rmse": 134.038,
+                    "smape": 0.8614,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 151.0965,
+                    "rmse": 166.9574,
+                    "smape": 1.0488,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 1806.06,
+                    "rmse": 1976.3696,
+                    "smape": 13.4393,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 693.6374,
+                    "rmse": 754.9491,
+                    "smape": 4.9197,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "Theta",
+            "best_smape": 0.8614
+        },
+        {
+            "port": "GENOVA",
+            "container_type": "20DV",
+            "target_variable": "inferred_supply",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 182.4847,
+                    "rmse": 190.2197,
+                    "smape": 1.7089,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 190.7966,
+                    "rmse": 200.1431,
+                    "smape": 1.7809,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 650.01,
+                    "rmse": 711.8635,
+                    "smape": 6.1742,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 225.0442,
+                    "rmse": 277.7472,
+                    "smape": 2.0684,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "Theta",
+            "best_smape": 1.7089
+        },
+        {
+            "port": "GENOVA",
+            "container_type": "40HC",
+            "target_variable": "balance",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 218.6176,
+                    "rmse": 319.7363,
+                    "smape": 4.0307,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 222.5581,
+                    "rmse": 333.4369,
+                    "smape": 4.1078,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 261.83,
+                    "rmse": 273.9529,
+                    "smape": 4.7698,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 234.3352,
+                    "rmse": 269.9524,
+                    "smape": 4.3265,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "Theta",
+            "best_smape": 4.0307
+        },
+        {
+            "port": "GENOVA",
+            "container_type": "40HC",
+            "target_variable": "inferred_demand",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 459.211,
+                    "rmse": 504.077,
+                    "smape": 2.1215,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 384.659,
+                    "rmse": 468.5765,
+                    "smape": 1.7933,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 1087.0567,
+                    "rmse": 1326.7989,
+                    "smape": 5.0416,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 384.0435,
+                    "rmse": 419.5546,
+                    "smape": 1.7626,
+                    "is_best_model": true
+                }
+            ],
+            "best_model": "Ensemble",
+            "best_smape": 1.7626
+        },
+        {
+            "port": "GENOVA",
+            "container_type": "40HC",
+            "target_variable": "inferred_supply",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 321.9396,
+                    "rmse": 370.0188,
+                    "smape": 2.0029,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 302.3225,
+                    "rmse": 375.0234,
+                    "smape": 1.8906,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 615.54,
+                    "rmse": 675.2106,
+                    "smape": 3.7711,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 392.5128,
+                    "rmse": 402.4309,
+                    "smape": 2.4209,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "HoltWinters",
+            "best_smape": 1.8906
+        },
+        {
+            "port": "GIOIA TAURO",
+            "container_type": "20DV",
+            "target_variable": "balance",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 168.9684,
+                    "rmse": 189.9069,
+                    "smape": 3.534,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 176.7433,
+                    "rmse": 197.1595,
+                    "smape": 3.6878,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 371.2933,
+                    "rmse": 378.5302,
+                    "smape": 8.0618,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 140.8418,
+                    "rmse": 158.5583,
+                    "smape": 2.9836,
+                    "is_best_model": true
+                }
+            ],
+            "best_model": "Ensemble",
+            "best_smape": 2.9836
+        },
+        {
+            "port": "GIOIA TAURO",
+            "container_type": "20DV",
+            "target_variable": "inferred_demand",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 200.2307,
+                    "rmse": 269.1109,
+                    "smape": 1.0292,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 207.3078,
+                    "rmse": 263.3791,
+                    "smape": 1.062,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 1479.8067,
+                    "rmse": 1575.0342,
+                    "smape": 7.7552,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 613.9093,
+                    "rmse": 638.0885,
+                    "smape": 3.142,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "Theta",
+            "best_smape": 1.0292
+        },
+        {
+            "port": "GIOIA TAURO",
+            "container_type": "20DV",
+            "target_variable": "inferred_supply",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 229.5741,
+                    "rmse": 233.0872,
+                    "smape": 1.5519,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 213.2931,
+                    "rmse": 213.6542,
+                    "smape": 1.4362,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 639.2233,
+                    "rmse": 738.7804,
+                    "smape": 4.3277,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 360.6968,
+                    "rmse": 376.4776,
+                    "smape": 2.4223,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "HoltWinters",
+            "best_smape": 1.4362
+        },
+        {
+            "port": "GIOIA TAURO",
+            "container_type": "40HC",
+            "target_variable": "balance",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 257.7246,
+                    "rmse": 273.7044,
+                    "smape": 3.3113,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 262.307,
+                    "rmse": 277.0748,
+                    "smape": 3.3666,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 242.6067,
+                    "rmse": 320.137,
+                    "smape": 3.1579,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 92.475,
+                    "rmse": 136.0192,
+                    "smape": 1.2272,
+                    "is_best_model": true
+                }
+            ],
+            "best_model": "Ensemble",
+            "best_smape": 1.2272
+        },
+        {
+            "port": "GIOIA TAURO",
+            "container_type": "40HC",
+            "target_variable": "inferred_demand",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 423.7856,
+                    "rmse": 481.05,
+                    "smape": 1.3832,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 443.4878,
+                    "rmse": 497.7659,
+                    "smape": 1.443,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 2344.7733,
+                    "rmse": 2726.7078,
+                    "smape": 7.8659,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 1070.6822,
+                    "rmse": 1185.5279,
+                    "smape": 3.4969,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "Theta",
+            "best_smape": 1.3832
+        },
+        {
+            "port": "GIOIA TAURO",
+            "container_type": "40HC",
+            "target_variable": "inferred_supply",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 555.7868,
+                    "rmse": 642.5243,
+                    "smape": 2.4292,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 526.9315,
+                    "rmse": 610.9002,
+                    "smape": 2.2991,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 1357.3433,
+                    "rmse": 1397.7614,
+                    "smape": 6.0019,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 813.3539,
+                    "rmse": 865.5959,
+                    "smape": 3.561,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "HoltWinters",
+            "best_smape": 2.2991
+        },
+        {
+            "port": "LA SPEZIA",
+            "container_type": "20DV",
+            "target_variable": "balance",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 94.9803,
+                    "rmse": 98.1561,
+                    "smape": 2.2827,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 101.5669,
+                    "rmse": 104.3441,
+                    "smape": 2.4376,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 227.0933,
+                    "rmse": 272.5475,
+                    "smape": 5.5868,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 70.0533,
+                    "rmse": 83.3504,
+                    "smape": 1.6806,
+                    "is_best_model": true
+                }
+            ],
+            "best_model": "Ensemble",
+            "best_smape": 1.6806
+        },
+        {
+            "port": "LA SPEZIA",
+            "container_type": "20DV",
+            "target_variable": "inferred_demand",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 74.9265,
+                    "rmse": 81.9449,
+                    "smape": 0.4464,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 178.947,
+                    "rmse": 179.8743,
+                    "smape": 1.0524,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 1506.7067,
+                    "rmse": 1667.2376,
+                    "smape": 9.2421,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 417.6111,
+                    "rmse": 489.206,
+                    "smape": 2.4558,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "Theta",
+            "best_smape": 0.4464
+        },
+        {
+            "port": "LA SPEZIA",
+            "container_type": "20DV",
+            "target_variable": "inferred_supply",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 78.547,
+                    "rmse": 80.2063,
+                    "smape": 0.6106,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 96.5783,
+                    "rmse": 105.8576,
+                    "smape": 0.7456,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 1137.2733,
+                    "rmse": 1247.149,
+                    "smape": 9.2204,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 437.4662,
+                    "rmse": 477.0375,
+                    "smape": 3.4318,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "Theta",
+            "best_smape": 0.6106
+        },
+        {
+            "port": "LA SPEZIA",
+            "container_type": "40HC",
+            "target_variable": "balance",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 196.1402,
+                    "rmse": 237.8068,
+                    "smape": 3.0488,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 199.6847,
+                    "rmse": 237.7092,
+                    "smape": 3.1002,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 311.7033,
+                    "rmse": 329.0724,
+                    "smape": 4.8228,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 223.8026,
+                    "rmse": 237.1006,
+                    "smape": 3.4638,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "Theta",
+            "best_smape": 3.0488
+        },
+        {
+            "port": "LA SPEZIA",
+            "container_type": "40HC",
+            "target_variable": "inferred_demand",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 288.6607,
+                    "rmse": 313.7857,
+                    "smape": 1.1021,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 239.5,
+                    "rmse": 269.4731,
+                    "smape": 0.9207,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 1287.9533,
+                    "rmse": 1450.8258,
+                    "smape": 5.0327,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 335.4472,
+                    "rmse": 367.7387,
+                    "smape": 1.2835,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "HoltWinters",
+            "best_smape": 0.9207
+        },
+        {
+            "port": "LA SPEZIA",
+            "container_type": "40HC",
+            "target_variable": "inferred_supply",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 282.5363,
+                    "rmse": 322.1883,
+                    "smape": 1.4188,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 220.4902,
+                    "rmse": 246.1909,
+                    "smape": 1.1126,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 1463.9433,
+                    "rmse": 1617.8566,
+                    "smape": 7.7615,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 320.3056,
+                    "rmse": 362.5998,
+                    "smape": 1.6372,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "HoltWinters",
+            "best_smape": 1.1126
+        },
+        {
+            "port": "LIVORNO",
+            "container_type": "20DV",
+            "target_variable": "balance",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 223.0964,
+                    "rmse": 224.7855,
+                    "smape": 7.8493,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 215.2691,
+                    "rmse": 216.8407,
+                    "smape": 7.5663,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 282.9867,
+                    "rmse": 290.4217,
+                    "smape": 10.0406,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 240.4507,
+                    "rmse": 241.7195,
+                    "smape": 8.4716,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "HoltWinters",
+            "best_smape": 7.5663
+        },
+        {
+            "port": "LIVORNO",
+            "container_type": "20DV",
+            "target_variable": "inferred_demand",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 88.9313,
+                    "rmse": 138.4483,
+                    "smape": 0.7985,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 80.368,
+                    "rmse": 131.2545,
+                    "smape": 0.7227,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 681.64,
+                    "rmse": 708.5872,
+                    "smape": 6.1617,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 276.614,
+                    "rmse": 285.0963,
+                    "smape": 2.4612,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "HoltWinters",
+            "best_smape": 0.7227
+        },
+        {
+            "port": "LIVORNO",
+            "container_type": "20DV",
+            "target_variable": "inferred_supply",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 139.5748,
+                    "rmse": 140.998,
+                    "smape": 1.66,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 126.3444,
+                    "rmse": 129.4055,
+                    "smape": 1.5056,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 314.5733,
+                    "rmse": 318.3783,
+                    "smape": 3.803,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 94.9413,
+                    "rmse": 127.6773,
+                    "smape": 1.1422,
+                    "is_best_model": true
+                }
+            ],
+            "best_model": "Ensemble",
+            "best_smape": 1.1422
+        },
+        {
+            "port": "LIVORNO",
+            "container_type": "40HC",
+            "target_variable": "balance",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 146.8551,
+                    "rmse": 175.2393,
+                    "smape": 3.3061,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 152.2342,
+                    "rmse": 174.0266,
+                    "smape": 3.4261,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 246.1333,
+                    "rmse": 305.0593,
+                    "smape": 5.6845,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 124.6187,
+                    "rmse": 196.2617,
+                    "smape": 2.8225,
+                    "is_best_model": true
+                }
+            ],
+            "best_model": "Ensemble",
+            "best_smape": 2.8225
+        },
+        {
+            "port": "LIVORNO",
+            "container_type": "40HC",
+            "target_variable": "inferred_demand",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 191.3268,
+                    "rmse": 202.793,
+                    "smape": 1.0851,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 212.2884,
+                    "rmse": 226.3395,
+                    "smape": 1.2004,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 904.0533,
+                    "rmse": 946.8715,
+                    "smape": 5.2152,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 435.8895,
+                    "rmse": 453.2398,
+                    "smape": 2.4801,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "Theta",
+            "best_smape": 1.0851
+        },
+        {
+            "port": "LIVORNO",
+            "container_type": "40HC",
+            "target_variable": "inferred_supply",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 390.6851,
+                    "rmse": 455.0316,
+                    "smape": 2.9326,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 383.0095,
+                    "rmse": 454.4031,
+                    "smape": 2.8701,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 1337.7967,
+                    "rmse": 1461.9133,
+                    "smape": 10.52,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 703.8304,
+                    "rmse": 787.0054,
+                    "smape": 5.3709,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "HoltWinters",
+            "best_smape": 2.8701
+        },
+        {
+            "port": "TRIESTE",
+            "container_type": "20DV",
+            "target_variable": "balance",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 126.0232,
+                    "rmse": 144.6125,
+                    "smape": 5.8337,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 127.5647,
+                    "rmse": 144.3389,
+                    "smape": 5.9096,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 151.7233,
+                    "rmse": 207.1094,
+                    "smape": 7.0627,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 126.5038,
+                    "rmse": 161.8538,
+                    "smape": 5.8419,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "Theta",
+            "best_smape": 5.8337
+        },
+        {
+            "port": "TRIESTE",
+            "container_type": "20DV",
+            "target_variable": "inferred_demand",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 103.7706,
+                    "rmse": 116.1087,
+                    "smape": 1.2051,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 88.8754,
+                    "rmse": 103.9902,
+                    "smape": 1.0385,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 327.2533,
+                    "rmse": 381.1286,
+                    "smape": 3.8622,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 63.0204,
+                    "rmse": 92.7793,
+                    "smape": 0.7212,
+                    "is_best_model": true
+                }
+            ],
+            "best_model": "Ensemble",
+            "best_smape": 0.7212
+        },
+        {
+            "port": "TRIESTE",
+            "container_type": "20DV",
+            "target_variable": "inferred_supply",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 123.8418,
+                    "rmse": 143.7794,
+                    "smape": 1.9053,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 108.913,
+                    "rmse": 125.975,
+                    "smape": 1.6783,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 135.87,
+                    "rmse": 140.0791,
+                    "smape": 2.1321,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 71.3244,
+                    "rmse": 86.7966,
+                    "smape": 1.1127,
+                    "is_best_model": true
+                }
+            ],
+            "best_model": "Ensemble",
+            "best_smape": 1.1127
+        },
+        {
+            "port": "TRIESTE",
+            "container_type": "40HC",
+            "target_variable": "balance",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 187.5251,
+                    "rmse": 204.6168,
+                    "smape": 5.7142,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 186.3426,
+                    "rmse": 203.8887,
+                    "smape": 5.6802,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 260.1933,
+                    "rmse": 293.1497,
+                    "smape": 7.8326,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 211.3537,
+                    "rmse": 232.9032,
+                    "smape": 6.4185,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "HoltWinters",
+            "best_smape": 5.6802
+        },
+        {
+            "port": "TRIESTE",
+            "container_type": "40HC",
+            "target_variable": "inferred_demand",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 52.1647,
+                    "rmse": 59.2781,
+                    "smape": 0.3982,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 58.6308,
+                    "rmse": 67.6891,
+                    "smape": 0.4451,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 1119.8467,
+                    "rmse": 1280.6942,
+                    "smape": 8.842,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 405.6703,
+                    "rmse": 453.1882,
+                    "smape": 3.0923,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "Theta",
+            "best_smape": 0.3982
+        },
+        {
+            "port": "TRIESTE",
+            "container_type": "40HC",
+            "target_variable": "inferred_supply",
+            "models_evaluated": [
+                {
+                    "model_name": "Theta",
+                    "mae": 312.6922,
+                    "rmse": 366.0766,
+                    "smape": 3.2466,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "HoltWinters",
+                    "mae": 312.2661,
+                    "rmse": 359.1718,
+                    "smape": 3.2381,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "RandomForest",
+                    "mae": 804.8867,
+                    "rmse": 814.795,
+                    "smape": 8.4748,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Ensemble",
+                    "mae": 476.615,
+                    "rmse": 496.9053,
+                    "smape": 4.9528,
+                    "is_best_model": false
+                }
+            ],
+            "best_model": "HoltWinters",
+            "best_smape": 3.2381
+        }
+    ],
+    "aggregate_by_target": {
+        "inferred_demand": {
+            "mean_mae": 183.3122,
+            "mean_rmse": 214.1276,
+            "mean_smape": 0.9331,
+            "series_count": 10
+        },
+        "inferred_supply": {
+            "mean_mae": 238.561,
+            "mean_rmse": 274.4244,
+            "mean_smape": 1.7421,
+            "series_count": 10
+        },
+        "balance": {
+            "mean_mae": 151.6698,
+            "mean_rmse": 187.4557,
+            "mean_smape": 3.9044,
+            "series_count": 10
+        }
+    },
+    "overall_best_models": {
+        "inferred_demand": "Theta",
+        "inferred_supply": "HoltWinters",
+        "balance": "Ensemble"
+    }
+}

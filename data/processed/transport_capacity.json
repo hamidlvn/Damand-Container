@@ -1,0 +1,3605 @@
+{
+    "voyage_legs": [
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 355.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 161.2,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 18.9,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 370.7,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-03-31",
+            "capacity_teu": 63.0,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 11.3,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 187.5,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 140.3,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 38.6,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 188.2,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 91.7,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 40.4,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-03-31",
+            "capacity_teu": 379.3,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 91.7,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 48.3,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-03-31",
+            "capacity_teu": 140.9,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-03-31",
+            "capacity_teu": 64.5,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 34.1,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 391.9,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-03-31",
+            "capacity_teu": 68.7,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 13.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 431.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-03-31",
+            "capacity_teu": 182.8,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 33.1,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 118.3,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 166.0,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 44.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-03-31",
+            "capacity_teu": 252.1,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-03-31",
+            "capacity_teu": 145.4,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 16.5,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-03-31",
+            "capacity_teu": 183.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 155.3,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 34.4,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 313.7,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-03-31",
+            "capacity_teu": 74.5,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 20.8,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 373.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 84.4,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 42.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 207.1,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-03-31",
+            "capacity_teu": 187.0,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 18.5,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 258.3,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-03-31",
+            "capacity_teu": 118.8,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 15.6,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-03-31",
+            "capacity_teu": 398.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-03-31",
+            "capacity_teu": 184.7,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 24.5,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 303.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 163.4,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 16.1,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-03-31",
+            "capacity_teu": 416.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-03-31",
+            "capacity_teu": 139.5,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 25.3,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 311.6,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 179.1,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 37.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 372.7,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-03-31",
+            "capacity_teu": 162.6,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-01-31",
+            "arrival_time": "2026-02-28",
+            "capacity_teu": 14.5,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 163.3,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-04-28",
+            "capacity_teu": 193.1,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 48.9,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 303.1,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-04-28",
+            "capacity_teu": 180.6,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 43.7,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 161.1,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 130.9,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 34.0,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-04-28",
+            "capacity_teu": 107.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-04-28",
+            "capacity_teu": 181.8,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 19.6,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 451.2,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-04-28",
+            "capacity_teu": 62.8,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 42.6,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-04-28",
+            "capacity_teu": 151.4,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 192.0,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 20.6,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-05-28",
+            "capacity_teu": 485.7,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 163.3,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 38.5,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-05-28",
+            "capacity_teu": 498.1,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-04-28",
+            "capacity_teu": 106.0,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 14.8,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 125.6,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 138.2,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 33.5,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-05-28",
+            "capacity_teu": 128.4,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 58.8,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 46.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 128.3,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-04-28",
+            "capacity_teu": 91.8,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 18.6,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-05-28",
+            "capacity_teu": 389.3,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 136.4,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 41.4,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 176.2,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-04-28",
+            "capacity_teu": 148.8,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 26.9,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 445.5,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 151.0,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 12.4,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 420.2,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 87.3,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 31.5,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-04-28",
+            "capacity_teu": 268.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 119.4,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 27.7,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-05-28",
+            "capacity_teu": 120.2,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 175.4,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 47.1,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-04-28",
+            "capacity_teu": 166.5,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-04-28",
+            "capacity_teu": 122.2,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 46.1,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-04-28",
+            "capacity_teu": 251.6,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-04-28",
+            "capacity_teu": 89.8,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 21.4,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-04-28",
+            "capacity_teu": 161.9,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 82.7,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-02-28",
+            "arrival_time": "2026-03-28",
+            "capacity_teu": 33.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 399.2,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-05-31",
+            "capacity_teu": 57.5,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 30.1,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 122.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 62.0,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 12.7,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 370.1,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 110.6,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 33.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-05-31",
+            "capacity_teu": 347.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-05-31",
+            "capacity_teu": 148.6,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 47.4,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-05-31",
+            "capacity_teu": 367.9,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-05-31",
+            "capacity_teu": 85.8,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 15.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 282.9,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 51.4,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 12.9,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 302.4,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 190.0,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 45.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-05-31",
+            "capacity_teu": 214.0,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-05-31",
+            "capacity_teu": 175.1,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 34.5,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 367.1,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 94.9,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 47.6,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 205.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 161.4,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 20.9,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 387.0,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-05-31",
+            "capacity_teu": 153.1,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 30.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 462.1,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-05-31",
+            "capacity_teu": 63.8,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 43.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 101.4,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-05-31",
+            "capacity_teu": 145.6,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 16.5,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-05-31",
+            "capacity_teu": 320.7,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 134.1,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 13.0,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-05-31",
+            "capacity_teu": 318.2,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 137.4,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 27.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 223.3,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 184.8,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 37.3,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 241.5,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-05-31",
+            "capacity_teu": 182.6,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 49.0,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 470.3,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 179.7,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 45.3,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-05-31",
+            "capacity_teu": 171.7,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-05-31",
+            "capacity_teu": 167.4,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 42.1,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 206.7,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 66.2,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-03-31",
+            "arrival_time": "2026-04-30",
+            "capacity_teu": 44.3,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 179.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 102.4,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 18.9,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 259.4,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 179.7,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 24.0,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 371.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 99.7,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 14.6,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 171.4,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 55.7,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 23.8,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 274.6,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 67.3,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 20.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 100.7,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 153.0,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 24.6,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 479.5,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 143.5,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 38.8,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 302.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 111.3,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 37.9,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 176.7,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 191.1,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 34.6,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 262.4,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 95.6,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 27.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 286.0,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 151.3,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 41.7,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 363.5,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 127.3,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 13.7,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 369.1,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 171.0,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 11.0,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 493.6,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 177.5,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 28.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 387.3,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 124.2,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 15.9,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 457.1,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 166.8,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 17.0,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 120.1,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 187.6,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 28.3,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 367.0,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 139.3,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 34.5,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 432.2,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 116.9,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 39.7,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 280.0,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 176.0,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-04-30",
+            "arrival_time": "2026-05-30",
+            "capacity_teu": 40.6,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-07-31",
+            "capacity_teu": 350.7,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-07-31",
+            "capacity_teu": 116.0,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 19.4,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-08-31",
+            "capacity_teu": 227.9,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 62.1,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 19.3,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 382.6,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-07-31",
+            "capacity_teu": 112.2,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 31.7,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-07-31",
+            "capacity_teu": 124.9,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 108.4,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 44.3,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-07-31",
+            "capacity_teu": 290.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-07-31",
+            "capacity_teu": 94.8,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 44.1,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-08-31",
+            "capacity_teu": 315.3,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 131.9,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 29.5,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 274.3,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-07-31",
+            "capacity_teu": 108.3,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 39.0,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-08-31",
+            "capacity_teu": 467.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-07-31",
+            "capacity_teu": 130.1,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 33.7,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-07-31",
+            "capacity_teu": 133.6,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-07-31",
+            "capacity_teu": 70.4,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 17.3,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 251.6,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-07-31",
+            "capacity_teu": 118.2,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 40.4,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-07-31",
+            "capacity_teu": 211.3,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 87.8,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 28.8,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-07-31",
+            "capacity_teu": 500.0,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 83.6,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 41.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 401.7,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 79.9,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 34.9,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-08-31",
+            "capacity_teu": 150.5,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 67.2,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 28.6,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 406.8,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 140.9,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 41.1,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 485.9,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-07-31",
+            "capacity_teu": 136.8,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 33.0,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-08-31",
+            "capacity_teu": 258.7,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 79.7,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 14.1,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-08-31",
+            "capacity_teu": 440.1,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 170.8,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 23.9,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 364.6,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-07-31",
+            "capacity_teu": 125.9,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 10.5,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 428.9,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-07-31",
+            "capacity_teu": 115.0,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-05-31",
+            "arrival_time": "2026-06-30",
+            "capacity_teu": 35.4,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 382.9,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 76.4,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 34.6,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-09-30",
+            "capacity_teu": 285.9,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 138.9,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 44.1,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 211.6,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 86.6,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 32.8,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 234.6,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 177.6,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GENOVA",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 29.5,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 419.1,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 91.9,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 32.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-09-30",
+            "capacity_teu": 134.2,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 111.0,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 37.6,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 279.3,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 64.0,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 26.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-09-30",
+            "capacity_teu": 222.5,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 105.4,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "GIOIA TAURO",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 27.0,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 240.7,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 90.6,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 19.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-09-30",
+            "capacity_teu": 226.2,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 130.4,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 17.7,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-09-30",
+            "capacity_teu": 210.6,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 196.5,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 49.2,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 218.5,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 76.9,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LA SPEZIA",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 38.3,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 209.7,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 133.0,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 35.5,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 141.0,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 136.1,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 29.1,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 173.7,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 87.9,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 14.6,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 260.3,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 136.6,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "LIVORNO",
+            "destination_port": "TRIESTE",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 16.1,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 134.1,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 67.8,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GENOVA",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 34.3,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 410.3,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 117.6,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "GIOIA TAURO",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 21.9,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-09-30",
+            "capacity_teu": 222.2,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 3
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 59.0,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LA SPEZIA",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 47.9,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "sea",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-08-30",
+            "capacity_teu": 350.2,
+            "cost_per_teu": 250.0,
+            "transit_time_periods": 2
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "rail",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 149.1,
+            "cost_per_teu": 400.0,
+            "transit_time_periods": 1
+        },
+        {
+            "origin_port": "TRIESTE",
+            "destination_port": "LIVORNO",
+            "mode": "road",
+            "departure_time": "2026-06-30",
+            "arrival_time": "2026-07-30",
+            "capacity_teu": 19.6,
+            "cost_per_teu": 600.0,
+            "transit_time_periods": 1
+        }
+    ],
+    "global_teu_capacity_limit": null
+}

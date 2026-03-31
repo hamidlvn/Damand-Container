@@ -1,0 +1,10 @@
+{
+    "problem_id": "PROB-c29a7acc",
+    "selected_solver": [
+        "Heuristic"
+    ],
+    "execution_mode": "single",
+    "fallback_solver": "MILP",
+    "reasoning": "Problem is LARGE (arcs=360, periods=15). MILP may be computationally intractable at this scale; Heuristic is selected as primary with MILP as fallback on smaller sub-problems.",
+    "runtime_hint": "high"
+}

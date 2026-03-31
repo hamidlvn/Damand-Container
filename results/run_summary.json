@@ -1,0 +1,79 @@
+{
+    "run_id": "RUN-637F04B8",
+    "mode": "full",
+    "timestamp": "2026-03-31T22:54:34.938124+00:00",
+    "dataset_path": "C:/Users/Hamid/Desktop/Damand Container/data/Italy_EmptyContainer_withSize_2018_2025.csv",
+    "stages_executed": [
+        {
+            "stage": "ingestion",
+            "status": "ok",
+            "duration_s": 0.659
+        },
+        {
+            "stage": "demand",
+            "status": "ok",
+            "duration_s": 0.072
+        },
+        {
+            "stage": "forecasting",
+            "status": "ok",
+            "duration_s": 18.306
+        },
+        {
+            "stage": "constraints",
+            "status": "ok",
+            "duration_s": 0.045
+        },
+        {
+            "stage": "capacity",
+            "status": "ok",
+            "duration_s": 0.026
+        },
+        {
+            "stage": "problem_builder",
+            "status": "ok",
+            "duration_s": 0.058
+        },
+        {
+            "stage": "solver_selection",
+            "status": "ok",
+            "duration_s": 0.027
+        },
+        {
+            "stage": "optimization",
+            "status": "ok",
+            "duration_s": 0.09
+        },
+        {
+            "stage": "evaluation",
+            "status": "ok",
+            "duration_s": 0.067
+        },
+        {
+            "stage": "policy",
+            "status": "ok",
+            "duration_s": 0.018
+        }
+    ],
+    "stages_skipped": [],
+    "status": "success",
+    "duration_seconds": 19.455,
+    "output_artifacts": [
+        "data/processed/cleaned_history.parquet",
+        "data/processed/historical_signals.parquet",
+        "data/processed/historical_net_balance.parquet",
+        "data/processed/forecast_results.parquet",
+        "data/processed/model_evaluations.parquet",
+        "data/processed/business_constraints.json",
+        "data/processed/transport_capacity.json",
+        "data/processed/structured_problem.json",
+        "data/processed/solver_strategy.json",
+        "data/processed/forecast_evaluation.json",
+        "data/processed/solver_evaluation.json",
+        "data/processed/evaluation_summary.json",
+        "data/processed/final_policy.json",
+        "data/processed/final_policy_report.md"
+    ],
+    "errors": [],
+    "random_seed": 42
+}

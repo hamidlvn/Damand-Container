@@ -1,0 +1,111 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Empty Container DSS — Master Pipeline Configuration
+# ──────────────────────────────────────────────────────────────────────────────
+
+reproducibility:
+  random_seed: 42   # Applied to capacity generator, RF forecaster, and any randomised steps
+
+
+ingestion:
+  raw_data_path: "C:/Users/Hamid/Desktop/Damand Container/data/Italy_EmptyContainer_withSize_2018_2025.csv"
+  processed_data_dir: "data/processed/"
+  processed_file_name: "cleaned_history.parquet"
+  required_columns:
+    - Date
+    - Port
+    - Container_Type
+    - Empty_Out_TEU
+    - Empty_In_TEU
+    - Full_Out_TEU
+    - Full_In_TEU
+
+demand_management:
+  aggregation_level: "ME"
+  output_signals_file: "historical_signals.parquet"
+  output_balance_file: "historical_net_balance.parquet"
+  priority_weight: 1.5
+
+forecasting:
+  enabled_models:
+    - Naive
+    - SeasonalNaive
+    - MovingAverage
+    - Drift
+    - SES
+    - Holt
+    - Theta
+    - HoltWinters
+    - RandomForest
+    - SimpleAverageEnsemble
+    - WeightedEnsemble
+  horizon_periods: 6
+  targets:
+    - inferred_demand
+    - inferred_supply
+    - balance
+  min_history_periods: 6
+  output_forecasts_file: "forecast_results.parquet"
+  output_evaluations_file: "model_evaluations.parquet"
+
+constraints:
+  global_service_level_target: 0.90      # 90% demand satisfaction globally
+  shortage_penalty: 100.0                # Cost weight for unmet demand TEU
+  surplus_penalty: 50.0                  # Cost weight for excess hold TEU
+  global_max_moves_teu: null             # Hard cap on transport operations (Sum of all relocated TEU)
+  budget:
+    is_hard_limit: false                 # If false, soft budget constraint
+    limit_value: 1000000.0               # Global budget limit ($)
+    violation_penalty_per_unit: 1.5      # Cost penalty multi for exceeding budget 
+  output_constraints_file: "business_constraints.json"
+
+  default_port_constraints:
+    min_inventory: 0.0                   # Assume able to drop to 0 safety stock 
+    max_inventory: 999999.0              # Finite placeholder
+    priority_weight: 1.0                 # Equal importance default
+    service_level_target: null           # Overrides global if provided
+
+capacity:
+  enable_rail: true
+  enable_road: true
+  modes:
+    sea:
+      capacity_range: [100.0, 500.0]
+      cost_per_teu: 250.0
+      transit_time_range: [1, 3]
+    rail:
+      capacity_range: [50.0, 200.0]
+      cost_per_teu: 400.0
+      transit_time_range: [1, 2]
+    road:
+      capacity_range: [10.0, 50.0]
+      cost_per_teu: 600.0
+      transit_time_range: [1, 1]
+  
+  # Preserving old keys as fallbacks during transition just in case
+  default_min_teu_capacity: 100.0
+  default_max_teu_capacity: 500.0
+  default_min_transit_time_periods: 1
+  default_max_transit_time_periods: 3
+  default_cost_per_teu: 250.0
+  output_capacity_file: "transport_capacity.json"
+
+problem_builder:
+  problem_id_prefix: "PROB-"
+  output_problem_file: "structured_problem.json"
+
+solver_selection:
+  output_strategy_file: "solver_strategy.json"
+  limits:
+    small_problem_arcs_max: 50
+    small_problem_time_max: 3
+    large_problem_arcs_min: 500
+    large_problem_time_min: 12
+
+evaluation:
+  output_forecast_eval: "forecast_evaluation.json"
+  output_solver_eval:   "solver_evaluation.json"
+  output_summary:       "evaluation_summary.json"
+
+policy:
+  output_policy_json: "final_policy.json"
+  output_policy_md:   "final_policy_report.md"
