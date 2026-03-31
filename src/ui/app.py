@@ -32,7 +32,7 @@ from src.ui.views import (
 
 # ── ordered page registry ──────────────────────────────────────────────────
 PAGES = {
-    "🏠  Overview":                overview,
+    "🏠 Overview":                overview,
     "1 · 📥  Ingestion":           ingestion_page,
     "2 · 📊  Demand Management":   demand_page,
     "3 · 📈  Forecasting":         forecasting_page,
