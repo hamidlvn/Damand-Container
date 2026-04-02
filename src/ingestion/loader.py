@@ -61,10 +61,13 @@ def ingest_dataset(config: Dict[str, Any] = None) -> pd.DataFrame:
     if not raw_path:
         raise ValueError("raw_data_path is missing from configuration")
 
+    PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+    raw_path = PROJECT_ROOT / raw_path
+
     logger.info(f"Loading raw dataset from: {raw_path}")
-    
+
     # Load raw CSV
-    if not Path(raw_path).exists():
+    if not raw_path.exists():
         raise FileNotFoundError(f"Raw data file not found: {raw_path}")
         
     df = pd.read_csv(raw_path)

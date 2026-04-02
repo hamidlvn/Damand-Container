@@ -6,6 +6,48 @@
             "target_variable": "balance",
             "models_evaluated": [
                 {
+                    "model_name": "Naive",
+                    "mae": 303.0,
+                    "rmse": 303.8053,
+                    "smape": 8.787,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 187.3333,
+                    "rmse": 200.4611,
+                    "smape": 5.3696,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 90.6667,
+                    "rmse": 93.3226,
+                    "smape": 2.5494,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 307.413,
+                    "rmse": 308.1095,
+                    "smape": 8.9208,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 301.5395,
+                    "rmse": 302.3488,
+                    "smape": 8.7428,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 307.5723,
+                    "rmse": 308.2428,
+                    "smape": 8.9256,
+                    "is_best_model": false
+                },
+                {
                     "model_name": "Theta",
                     "mae": 149.8066,
                     "rmse": 185.5271,
@@ -14,10 +56,10 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 146.3162,
-                    "rmse": 177.4821,
-                    "smape": 4.1701,
-                    "is_best_model": true
+                    "mae": 146.3343,
+                    "rmse": 177.5266,
+                    "smape": 4.1707,
+                    "is_best_model": false
                 },
                 {
                     "model_name": "RandomForest",
@@ -27,21 +69,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 216.1444,
-                    "rmse": 225.4823,
-                    "smape": 6.1989,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 216.1658,
+                    "rmse": 225.5031,
+                    "smape": 6.1996,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 216.1658,
+                    "rmse": 225.5031,
+                    "smape": 6.1996,
                     "is_best_model": false
                 }
             ],
-            "best_model": "HoltWinters",
-            "best_smape": 4.1701
+            "best_model": "MovingAverage",
+            "best_smape": 2.5494
         },
         {
             "port": "GENOVA",
             "container_type": "20DV",
             "target_variable": "inferred_demand",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 717.6667,
+                    "rmse": 845.1952,
+                    "smape": 5.0892,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 281.0,
+                    "rmse": 308.4893,
+                    "smape": 2.004,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 461.8889,
+                    "rmse": 614.5527,
+                    "smape": 3.2285,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 717.0145,
+                    "rmse": 844.5031,
+                    "smape": 5.0844,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 717.6667,
+                    "rmse": 845.1952,
+                    "smape": 5.0892,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 1387.5787,
+                    "rmse": 1562.4748,
+                    "smape": 10.1469,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 123.7555,
@@ -51,9 +142,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 151.0965,
-                    "rmse": 166.9574,
-                    "smape": 1.0488,
+                    "mae": 151.1868,
+                    "rmse": 166.9697,
+                    "smape": 1.0495,
                     "is_best_model": false
                 },
                 {
@@ -64,10 +155,17 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 693.6374,
-                    "rmse": 754.9491,
-                    "smape": 4.9197,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 693.6674,
+                    "rmse": 754.9745,
+                    "smape": 4.92,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 693.6674,
+                    "rmse": 754.9745,
+                    "smape": 4.92,
                     "is_best_model": false
                 }
             ],
@@ -80,17 +178,59 @@
             "target_variable": "inferred_supply",
             "models_evaluated": [
                 {
+                    "model_name": "Naive",
+                    "mae": 480.0,
+                    "rmse": 620.5068,
+                    "smape": 4.4851,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 178.3333,
+                    "rmse": 192.8117,
+                    "smape": 1.7018,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 452.3333,
+                    "rmse": 568.4039,
+                    "smape": 4.2185,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 476.6232,
+                    "rmse": 615.6042,
+                    "smape": 4.4524,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 480.0,
+                    "rmse": 620.5068,
+                    "smape": 4.4851,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 567.4545,
+                    "rmse": 755.2422,
+                    "smape": 5.34,
+                    "is_best_model": false
+                },
+                {
                     "model_name": "Theta",
                     "mae": 182.4847,
                     "rmse": 190.2197,
                     "smape": 1.7089,
-                    "is_best_model": true
+                    "is_best_model": false
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 190.7966,
-                    "rmse": 200.1431,
-                    "smape": 1.7809,
+                    "mae": 190.8404,
+                    "rmse": 200.1598,
+                    "smape": 1.7814,
                     "is_best_model": false
                 },
                 {
@@ -101,21 +241,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 225.0442,
-                    "rmse": 277.7472,
-                    "smape": 2.0684,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 224.9988,
+                    "rmse": 277.6799,
+                    "smape": 2.0679,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 224.9988,
+                    "rmse": 277.6799,
+                    "smape": 2.0679,
                     "is_best_model": false
                 }
             ],
-            "best_model": "Theta",
-            "best_smape": 1.7089
+            "best_model": "SeasonalNaive",
+            "best_smape": 1.7018
         },
         {
             "port": "GENOVA",
             "container_type": "40HC",
             "target_variable": "balance",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 285.3333,
+                    "rmse": 298.9972,
+                    "smape": 5.2368,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 228.0,
+                    "rmse": 251.2064,
+                    "smape": 4.2907,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 334.0,
+                    "rmse": 354.5485,
+                    "smape": 6.1143,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 285.3333,
+                    "rmse": 297.9779,
+                    "smape": 5.2369,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 310.4677,
+                    "rmse": 320.6654,
+                    "smape": 5.6931,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 311.3316,
+                    "rmse": 323.0503,
+                    "smape": 5.7087,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 218.6176,
@@ -125,9 +314,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 222.5581,
-                    "rmse": 333.4369,
-                    "smape": 4.1078,
+                    "mae": 222.5379,
+                    "rmse": 333.7832,
+                    "smape": 4.1075,
                     "is_best_model": false
                 },
                 {
@@ -138,10 +327,17 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 234.3352,
-                    "rmse": 269.9524,
-                    "smape": 4.3265,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 234.3285,
+                    "rmse": 270.0263,
+                    "smape": 4.3264,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 234.3285,
+                    "rmse": 270.0263,
+                    "smape": 4.3264,
                     "is_best_model": false
                 }
             ],
@@ -154,6 +350,48 @@
             "target_variable": "inferred_demand",
             "models_evaluated": [
                 {
+                    "model_name": "Naive",
+                    "mae": 901.3333,
+                    "rmse": 1053.0211,
+                    "smape": 4.1522,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 252.0,
+                    "rmse": 286.975,
+                    "smape": 1.1582,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 842.7778,
+                    "rmse": 964.2868,
+                    "smape": 3.8772,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 893.087,
+                    "rmse": 1041.8717,
+                    "smape": 4.1133,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 901.3333,
+                    "rmse": 1053.0211,
+                    "smape": 4.1522,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 881.6848,
+                    "rmse": 1028.9755,
+                    "smape": 4.0596,
+                    "is_best_model": false
+                },
+                {
                     "model_name": "Theta",
                     "mae": 459.211,
                     "rmse": 504.077,
@@ -162,9 +400,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 384.659,
-                    "rmse": 468.5765,
-                    "smape": 1.7933,
+                    "mae": 399.0587,
+                    "rmse": 479.4344,
+                    "smape": 1.858,
                     "is_best_model": false
                 },
                 {
@@ -175,21 +413,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 384.0435,
-                    "rmse": 419.5546,
-                    "smape": 1.7626,
-                    "is_best_model": true
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 381.8953,
+                    "rmse": 418.0446,
+                    "smape": 1.7531,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 381.8953,
+                    "rmse": 418.0446,
+                    "smape": 1.7531,
+                    "is_best_model": false
                 }
             ],
-            "best_model": "Ensemble",
-            "best_smape": 1.7626
+            "best_model": "SeasonalNaive",
+            "best_smape": 1.1582
         },
         {
             "port": "GENOVA",
             "container_type": "40HC",
             "target_variable": "inferred_supply",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 846.6667,
+                    "rmse": 945.1938,
+                    "smape": 5.2264,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 418.6667,
+                    "rmse": 438.7748,
+                    "smape": 2.5879,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 836.7778,
+                    "rmse": 925.0859,
+                    "smape": 5.1636,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 845.8986,
+                    "rmse": 944.0753,
+                    "smape": 5.2215,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 846.6667,
+                    "rmse": 945.1938,
+                    "smape": 5.2264,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 845.8976,
+                    "rmse": 944.074,
+                    "smape": 5.2215,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 321.9396,
@@ -199,9 +486,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 302.3225,
-                    "rmse": 375.0234,
-                    "smape": 1.8906,
+                    "mae": 302.703,
+                    "rmse": 375.1124,
+                    "smape": 1.8928,
                     "is_best_model": true
                 },
                 {
@@ -212,21 +499,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 392.5128,
-                    "rmse": 402.4309,
-                    "smape": 2.4209,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 392.3564,
+                    "rmse": 402.3105,
+                    "smape": 2.42,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 392.3564,
+                    "rmse": 402.3105,
+                    "smape": 2.42,
                     "is_best_model": false
                 }
             ],
             "best_model": "HoltWinters",
-            "best_smape": 1.8906
+            "best_smape": 1.8928
         },
         {
             "port": "GIOIA TAURO",
             "container_type": "20DV",
             "target_variable": "balance",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 291.3333,
+                    "rmse": 315.6095,
+                    "smape": 6.2539,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 319.0,
+                    "rmse": 383.0009,
+                    "smape": 6.4874,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 115.1111,
+                    "rmse": 122.2675,
+                    "smape": 2.4168,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 300.2246,
+                    "rmse": 324.2211,
+                    "smape": 6.452,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 260.688,
+                    "rmse": 287.563,
+                    "smape": 5.5741,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 269.3938,
+                    "rmse": 295.8739,
+                    "smape": 5.7667,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 168.9684,
@@ -236,9 +572,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 176.7433,
-                    "rmse": 197.1595,
-                    "smape": 3.6878,
+                    "mae": 176.7384,
+                    "rmse": 197.191,
+                    "smape": 3.6877,
                     "is_best_model": false
                 },
                 {
@@ -249,21 +585,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 140.8418,
-                    "rmse": 158.5583,
-                    "smape": 2.9836,
-                    "is_best_model": true
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 140.8355,
+                    "rmse": 158.5381,
+                    "smape": 2.9834,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 140.8355,
+                    "rmse": 158.5381,
+                    "smape": 2.9834,
+                    "is_best_model": false
                 }
             ],
-            "best_model": "Ensemble",
-            "best_smape": 2.9836
+            "best_model": "MovingAverage",
+            "best_smape": 2.4168
         },
         {
             "port": "GIOIA TAURO",
             "container_type": "20DV",
             "target_variable": "inferred_demand",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 802.0,
+                    "rmse": 920.9234,
+                    "smape": 4.1154,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 298.0,
+                    "rmse": 352.3322,
+                    "smape": 1.5351,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 403.3333,
+                    "rmse": 606.2786,
+                    "smape": 2.0355,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 799.8261,
+                    "rmse": 918.6575,
+                    "smape": 4.1039,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 802.0,
+                    "rmse": 920.9234,
+                    "smape": 4.1154,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 1285.3156,
+                    "rmse": 1430.7885,
+                    "smape": 6.6997,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 200.2307,
@@ -273,9 +658,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 207.3078,
-                    "rmse": 263.3791,
-                    "smape": 1.062,
+                    "mae": 206.1504,
+                    "rmse": 261.6397,
+                    "smape": 1.0564,
                     "is_best_model": false
                 },
                 {
@@ -286,10 +671,17 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 613.9093,
-                    "rmse": 638.0885,
-                    "smape": 3.142,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 612.5722,
+                    "rmse": 636.7121,
+                    "smape": 3.1351,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 612.5722,
+                    "rmse": 636.7121,
+                    "smape": 3.1351,
                     "is_best_model": false
                 }
             ],
@@ -302,6 +694,48 @@
             "target_variable": "inferred_supply",
             "models_evaluated": [
                 {
+                    "model_name": "Naive",
+                    "mae": 510.6667,
+                    "rmse": 632.6452,
+                    "smape": 3.4356,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 279.0,
+                    "rmse": 295.0147,
+                    "smape": 1.8987,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 388.6667,
+                    "rmse": 539.0003,
+                    "smape": 2.5966,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 499.6014,
+                    "rmse": 621.1924,
+                    "smape": 3.3593,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 510.6667,
+                    "rmse": 632.6452,
+                    "smape": 3.4356,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 656.6541,
+                    "rmse": 766.3191,
+                    "smape": 4.4489,
+                    "is_best_model": false
+                },
+                {
                     "model_name": "Theta",
                     "mae": 229.5741,
                     "rmse": 233.0872,
@@ -310,9 +744,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 213.2931,
-                    "rmse": 213.6542,
-                    "smape": 1.4362,
+                    "mae": 218.4933,
+                    "rmse": 218.9927,
+                    "smape": 1.4717,
                     "is_best_model": true
                 },
                 {
@@ -323,21 +757,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 360.6968,
-                    "rmse": 376.4776,
-                    "smape": 2.4223,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 362.4302,
+                    "rmse": 378.0007,
+                    "smape": 2.4342,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 362.4302,
+                    "rmse": 378.0007,
+                    "smape": 2.4342,
                     "is_best_model": false
                 }
             ],
             "best_model": "HoltWinters",
-            "best_smape": 1.4362
+            "best_smape": 1.4717
         },
         {
             "port": "GIOIA TAURO",
             "container_type": "40HC",
             "target_variable": "balance",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 250.6667,
+                    "rmse": 337.3188,
+                    "smape": 3.2642,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 114.0,
+                    "rmse": 129.823,
+                    "smape": 1.4666,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 241.5556,
+                    "rmse": 264.6079,
+                    "smape": 3.1378,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 251.4493,
+                    "rmse": 338.4134,
+                    "smape": 3.2747,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 239.9317,
+                    "rmse": 318.3363,
+                    "smape": 3.1208,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 245.4988,
+                    "rmse": 325.6506,
+                    "smape": 3.1951,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 257.7246,
@@ -347,9 +830,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 262.307,
-                    "rmse": 277.0748,
-                    "smape": 3.3666,
+                    "mae": 256.6091,
+                    "rmse": 272.0947,
+                    "smape": 3.2946,
                     "is_best_model": false
                 },
                 {
@@ -360,21 +843,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 92.475,
-                    "rmse": 136.0192,
-                    "smape": 1.2272,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 90.5757,
+                    "rmse": 134.967,
+                    "smape": 1.2027,
                     "is_best_model": true
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 90.5757,
+                    "rmse": 134.967,
+                    "smape": 1.2027,
+                    "is_best_model": false
                 }
             ],
-            "best_model": "Ensemble",
-            "best_smape": 1.2272
+            "best_model": "SimpleAverageEnsemble",
+            "best_smape": 1.2027
         },
         {
             "port": "GIOIA TAURO",
             "container_type": "40HC",
             "target_variable": "inferred_demand",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 1469.0,
+                    "rmse": 1700.5479,
+                    "smape": 4.8325,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 544.0,
+                    "rmse": 675.0886,
+                    "smape": 1.8015,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 935.0,
+                    "rmse": 1268.1195,
+                    "smape": 3.0347,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 1455.6087,
+                    "rmse": 1686.3441,
+                    "smape": 4.787,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 1469.0,
+                    "rmse": 1700.5479,
+                    "smape": 4.8325,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 1904.0851,
+                    "rmse": 2150.242,
+                    "smape": 6.3218,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 423.7856,
@@ -384,9 +916,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 443.4878,
-                    "rmse": 497.7659,
-                    "smape": 1.443,
+                    "mae": 435.4598,
+                    "rmse": 490.8006,
+                    "smape": 1.4171,
                     "is_best_model": false
                 },
                 {
@@ -397,10 +929,17 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 1070.6822,
-                    "rmse": 1185.5279,
-                    "smape": 3.4969,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 1068.0063,
+                    "rmse": 1182.4446,
+                    "smape": 3.4881,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 1068.0063,
+                    "rmse": 1182.4446,
+                    "smape": 3.4881,
                     "is_best_model": false
                 }
             ],
@@ -413,6 +952,48 @@
             "target_variable": "inferred_supply",
             "models_evaluated": [
                 {
+                    "model_name": "Naive",
+                    "mae": 1259.6667,
+                    "rmse": 1392.1687,
+                    "smape": 5.5428,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 546.0,
+                    "rmse": 671.7326,
+                    "smape": 2.4249,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 942.3333,
+                    "rmse": 1113.268,
+                    "smape": 4.1092,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 1245.1014,
+                    "rmse": 1376.5851,
+                    "smape": 5.4766,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 1259.6667,
+                    "rmse": 1392.1687,
+                    "smape": 5.5428,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 1799.3141,
+                    "rmse": 1946.4105,
+                    "smape": 8.0293,
+                    "is_best_model": false
+                },
+                {
                     "model_name": "Theta",
                     "mae": 555.7868,
                     "rmse": 642.5243,
@@ -421,9 +1002,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 526.9315,
-                    "rmse": 610.9002,
-                    "smape": 2.2991,
+                    "mae": 541.1417,
+                    "rmse": 623.7423,
+                    "smape": 2.3607,
                     "is_best_model": true
                 },
                 {
@@ -434,21 +1015,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 813.3539,
-                    "rmse": 865.5959,
-                    "smape": 3.561,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 818.0906,
+                    "rmse": 870.4267,
+                    "smape": 3.5818,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 818.0906,
+                    "rmse": 870.4267,
+                    "smape": 3.5818,
                     "is_best_model": false
                 }
             ],
             "best_model": "HoltWinters",
-            "best_smape": 2.2991
+            "best_smape": 2.3607
         },
         {
             "port": "LA SPEZIA",
             "container_type": "20DV",
             "target_variable": "balance",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 107.0,
+                    "rmse": 122.8726,
+                    "smape": 2.5699,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 66.6667,
+                    "rmse": 82.8694,
+                    "smape": 1.6063,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 99.6667,
+                    "rmse": 128.0169,
+                    "smape": 2.3916,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 107.0,
+                    "rmse": 123.3561,
+                    "smape": 2.5699,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 107.0193,
+                    "rmse": 122.8639,
+                    "smape": 2.5704,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 107.0181,
+                    "rmse": 123.3289,
+                    "smape": 2.5704,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 94.9803,
@@ -458,9 +1088,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 101.5669,
-                    "rmse": 104.3441,
-                    "smape": 2.4376,
+                    "mae": 101.6351,
+                    "rmse": 104.4264,
+                    "smape": 2.4392,
                     "is_best_model": false
                 },
                 {
@@ -471,15 +1101,22 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 70.0533,
-                    "rmse": 83.3504,
-                    "smape": 1.6806,
-                    "is_best_model": true
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 70.0668,
+                    "rmse": 83.38,
+                    "smape": 1.6809,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 70.0668,
+                    "rmse": 83.38,
+                    "smape": 1.6809,
+                    "is_best_model": false
                 }
             ],
-            "best_model": "Ensemble",
-            "best_smape": 1.6806
+            "best_model": "SeasonalNaive",
+            "best_smape": 1.6063
         },
         {
             "port": "LA SPEZIA",
@@ -487,17 +1124,59 @@
             "target_variable": "inferred_demand",
             "models_evaluated": [
                 {
+                    "model_name": "Naive",
+                    "mae": 597.6667,
+                    "rmse": 781.1293,
+                    "smape": 3.5344,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 32.3333,
+                    "rmse": 33.4515,
+                    "smape": 0.1914,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 510.7778,
+                    "rmse": 613.6821,
+                    "smape": 3.0094,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 596.2029,
+                    "rmse": 778.904,
+                    "smape": 3.5255,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 597.6667,
+                    "rmse": 781.1293,
+                    "smape": 3.5344,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 748.3334,
+                    "rmse": 955.5643,
+                    "smape": 4.4582,
+                    "is_best_model": false
+                },
+                {
                     "model_name": "Theta",
                     "mae": 74.9265,
                     "rmse": 81.9449,
                     "smape": 0.4464,
-                    "is_best_model": true
+                    "is_best_model": false
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 178.947,
-                    "rmse": 179.8743,
-                    "smape": 1.0524,
+                    "mae": 94.359,
+                    "rmse": 114.3341,
+                    "smape": 0.5655,
                     "is_best_model": false
                 },
                 {
@@ -508,21 +1187,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 417.6111,
-                    "rmse": 489.206,
-                    "smape": 2.4558,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 445.8071,
+                    "rmse": 521.3603,
+                    "smape": 2.6247,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 445.8071,
+                    "rmse": 521.3603,
+                    "smape": 2.6247,
                     "is_best_model": false
                 }
             ],
-            "best_model": "Theta",
-            "best_smape": 0.4464
+            "best_model": "SeasonalNaive",
+            "best_smape": 0.1914
         },
         {
             "port": "LA SPEZIA",
             "container_type": "20DV",
             "target_variable": "inferred_supply",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 560.0,
+                    "rmse": 693.7439,
+                    "smape": 4.4077,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 85.0,
+                    "rmse": 104.4493,
+                    "smape": 0.6767,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 425.1111,
+                    "rmse": 494.5649,
+                    "smape": 3.3197,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 556.8913,
+                    "rmse": 690.486,
+                    "smape": 4.3824,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 560.0,
+                    "rmse": 693.7439,
+                    "smape": 4.4077,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 1026.5003,
+                    "rmse": 1177.3896,
+                    "smape": 8.2843,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 78.547,
@@ -532,9 +1260,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 96.5783,
-                    "rmse": 105.8576,
-                    "smape": 0.7456,
+                    "mae": 98.334,
+                    "rmse": 107.5393,
+                    "smape": 0.7593,
                     "is_best_model": false
                 },
                 {
@@ -545,10 +1273,17 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 437.4662,
-                    "rmse": 477.0375,
-                    "smape": 3.4318,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 438.0515,
+                    "rmse": 477.6065,
+                    "smape": 3.4365,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 438.0515,
+                    "rmse": 477.6065,
+                    "smape": 3.4365,
                     "is_best_model": false
                 }
             ],
@@ -561,17 +1296,59 @@
             "target_variable": "balance",
             "models_evaluated": [
                 {
+                    "model_name": "Naive",
+                    "mae": 347.0,
+                    "rmse": 389.7918,
+                    "smape": 5.3832,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 151.0,
+                    "rmse": 185.5631,
+                    "smape": 2.3279,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 250.2222,
+                    "rmse": 268.1463,
+                    "smape": 3.868,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 339.4493,
+                    "rmse": 378.8865,
+                    "smape": 5.2625,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 320.4982,
+                    "rmse": 336.5393,
+                    "smape": 4.9619,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 312.5702,
+                    "rmse": 325.9713,
+                    "smape": 4.8367,
+                    "is_best_model": false
+                },
+                {
                     "model_name": "Theta",
                     "mae": 196.1402,
                     "rmse": 237.8068,
                     "smape": 3.0488,
-                    "is_best_model": true
+                    "is_best_model": false
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 199.6847,
-                    "rmse": 237.7092,
-                    "smape": 3.1002,
+                    "mae": 199.6547,
+                    "rmse": 237.5948,
+                    "smape": 3.0997,
                     "is_best_model": false
                 },
                 {
@@ -582,21 +1359,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 223.8026,
-                    "rmse": 237.1006,
-                    "smape": 3.4638,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 223.7595,
+                    "rmse": 237.0606,
+                    "smape": 3.4631,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 223.7595,
+                    "rmse": 237.0606,
+                    "smape": 3.4631,
                     "is_best_model": false
                 }
             ],
-            "best_model": "Theta",
-            "best_smape": 3.0488
+            "best_model": "SeasonalNaive",
+            "best_smape": 2.3279
         },
         {
             "port": "LA SPEZIA",
             "container_type": "40HC",
             "target_variable": "inferred_demand",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 880.0,
+                    "rmse": 1071.6875,
+                    "smape": 3.3985,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 77.0,
+                    "rmse": 94.5498,
+                    "smape": 0.2981,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 764.4444,
+                    "rmse": 843.3574,
+                    "smape": 2.9444,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 867.7391,
+                    "rmse": 1052.9769,
+                    "smape": 3.35,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 880.0,
+                    "rmse": 1071.6875,
+                    "smape": 3.3985,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 1318.5054,
+                    "rmse": 1604.5925,
+                    "smape": 5.1572,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 288.6607,
@@ -606,10 +1432,10 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 239.5,
-                    "rmse": 269.4731,
-                    "smape": 0.9207,
-                    "is_best_model": true
+                    "mae": 240.9399,
+                    "rmse": 270.8669,
+                    "smape": 0.9258,
+                    "is_best_model": false
                 },
                 {
                     "model_name": "RandomForest",
@@ -619,21 +1445,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 335.4472,
-                    "rmse": 367.7387,
-                    "smape": 1.2835,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 334.5002,
+                    "rmse": 366.8484,
+                    "smape": 1.2799,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 334.5002,
+                    "rmse": 366.8484,
+                    "smape": 1.2799,
                     "is_best_model": false
                 }
             ],
-            "best_model": "HoltWinters",
-            "best_smape": 0.9207
+            "best_model": "SeasonalNaive",
+            "best_smape": 0.2981
         },
         {
             "port": "LA SPEZIA",
             "container_type": "40HC",
             "target_variable": "inferred_supply",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 533.0,
+                    "rmse": 707.4473,
+                    "smape": 2.7363,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 130.0,
+                    "rmse": 184.4252,
+                    "smape": 0.6457,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 514.2222,
+                    "rmse": 667.0501,
+                    "smape": 2.6378,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 528.2899,
+                    "rmse": 700.3135,
+                    "smape": 2.7115,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 533.0,
+                    "rmse": 707.4473,
+                    "smape": 2.7363,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 501.276,
+                    "rmse": 659.951,
+                    "smape": 2.5699,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 282.5363,
@@ -643,10 +1518,10 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 220.4902,
-                    "rmse": 246.1909,
-                    "smape": 1.1126,
-                    "is_best_model": true
+                    "mae": 220.7931,
+                    "rmse": 246.5802,
+                    "smape": 1.1141,
+                    "is_best_model": false
                 },
                 {
                     "model_name": "RandomForest",
@@ -656,21 +1531,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 320.3056,
-                    "rmse": 362.5998,
-                    "smape": 1.6372,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 320.2046,
+                    "rmse": 362.5019,
+                    "smape": 1.6367,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 320.2046,
+                    "rmse": 362.5019,
+                    "smape": 1.6367,
                     "is_best_model": false
                 }
             ],
-            "best_model": "HoltWinters",
-            "best_smape": 1.1126
+            "best_model": "SeasonalNaive",
+            "best_smape": 0.6457
         },
         {
             "port": "LIVORNO",
             "container_type": "20DV",
             "target_variable": "balance",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 159.3333,
+                    "rmse": 177.9944,
+                    "smape": 5.5075,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 182.6667,
+                    "rmse": 195.8111,
+                    "smape": 6.4394,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 272.0,
+                    "rmse": 283.3353,
+                    "smape": 9.6167,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 162.0507,
+                    "rmse": 180.9206,
+                    "smape": 5.6047,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 182.9466,
+                    "rmse": 199.41,
+                    "smape": 6.3553,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 186.1147,
+                    "rmse": 202.8049,
+                    "smape": 6.4696,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 223.0964,
@@ -680,10 +1604,10 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 215.2691,
-                    "rmse": 216.8407,
-                    "smape": 7.5663,
-                    "is_best_model": true
+                    "mae": 215.0442,
+                    "rmse": 216.6253,
+                    "smape": 7.5584,
+                    "is_best_model": false
                 },
                 {
                     "model_name": "RandomForest",
@@ -693,21 +1617,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 240.4507,
-                    "rmse": 241.7195,
-                    "smape": 8.4716,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 240.3757,
+                    "rmse": 241.6359,
+                    "smape": 8.4689,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 240.3757,
+                    "rmse": 241.6359,
+                    "smape": 8.4689,
                     "is_best_model": false
                 }
             ],
-            "best_model": "HoltWinters",
-            "best_smape": 7.5663
+            "best_model": "Naive",
+            "best_smape": 5.5075
         },
         {
             "port": "LIVORNO",
             "container_type": "20DV",
             "target_variable": "inferred_demand",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 481.6667,
+                    "rmse": 528.1884,
+                    "smape": 4.3093,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 112.3333,
+                    "rmse": 147.9696,
+                    "smape": 0.9974,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 287.3333,
+                    "rmse": 359.9176,
+                    "smape": 2.541,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 479.6014,
+                    "rmse": 525.9996,
+                    "smape": 4.2903,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 481.6667,
+                    "rmse": 528.1884,
+                    "smape": 4.3093,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 588.5725,
+                    "rmse": 641.5206,
+                    "smape": 5.2958,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 88.9313,
@@ -717,9 +1690,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 80.368,
-                    "rmse": 131.2545,
-                    "smape": 0.7227,
+                    "mae": 81.3035,
+                    "rmse": 132.0949,
+                    "smape": 0.7307,
                     "is_best_model": true
                 },
                 {
@@ -730,21 +1703,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 276.614,
-                    "rmse": 285.0963,
-                    "smape": 2.4612,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 277.3921,
+                    "rmse": 285.8558,
+                    "smape": 2.4682,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 277.3921,
+                    "rmse": 285.8558,
+                    "smape": 2.4682,
                     "is_best_model": false
                 }
             ],
             "best_model": "HoltWinters",
-            "best_smape": 0.7227
+            "best_smape": 0.7307
         },
         {
             "port": "LIVORNO",
             "container_type": "20DV",
             "target_variable": "inferred_supply",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 322.3333,
+                    "rmse": 357.4955,
+                    "smape": 3.887,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 70.3333,
+                    "rmse": 87.8654,
+                    "smape": 0.8396,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 136.6667,
+                    "rmse": 155.3684,
+                    "smape": 1.6193,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 317.5507,
+                    "rmse": 352.5735,
+                    "smape": 3.828,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 322.3333,
+                    "rmse": 357.4954,
+                    "smape": 3.887,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 957.9046,
+                    "rmse": 1035.134,
+                    "smape": 12.1049,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 139.5748,
@@ -754,9 +1776,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 126.3444,
-                    "rmse": 129.4055,
-                    "smape": 1.5056,
+                    "mae": 126.7658,
+                    "rmse": 129.7505,
+                    "smape": 1.5104,
                     "is_best_model": false
                 },
                 {
@@ -767,21 +1789,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 94.9413,
-                    "rmse": 127.6773,
-                    "smape": 1.1422,
-                    "is_best_model": true
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 94.8853,
+                    "rmse": 127.5695,
+                    "smape": 1.1415,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 94.8853,
+                    "rmse": 127.5695,
+                    "smape": 1.1415,
+                    "is_best_model": false
                 }
             ],
-            "best_model": "Ensemble",
-            "best_smape": 1.1422
+            "best_model": "SeasonalNaive",
+            "best_smape": 0.8396
         },
         {
             "port": "LIVORNO",
             "container_type": "40HC",
             "target_variable": "balance",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 112.0,
+                    "rmse": 136.8308,
+                    "smape": 2.5305,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 251.3333,
+                    "rmse": 294.0669,
+                    "smape": 5.7412,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 129.8889,
+                    "rmse": 154.5722,
+                    "smape": 2.9394,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 111.5507,
+                    "rmse": 136.937,
+                    "smape": 2.5203,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 123.4179,
+                    "rmse": 146.142,
+                    "smape": 2.7909,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 122.8542,
+                    "rmse": 145.8327,
+                    "smape": 2.778,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 146.8551,
@@ -791,9 +1862,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 152.2342,
-                    "rmse": 174.0266,
-                    "smape": 3.4261,
+                    "mae": 152.2285,
+                    "rmse": 174.0211,
+                    "smape": 3.426,
                     "is_best_model": false
                 },
                 {
@@ -804,21 +1875,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 124.6187,
-                    "rmse": 196.2617,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 124.6168,
+                    "rmse": 196.2606,
                     "smape": 2.8225,
-                    "is_best_model": true
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 124.6168,
+                    "rmse": 196.2606,
+                    "smape": 2.8225,
+                    "is_best_model": false
                 }
             ],
-            "best_model": "Ensemble",
-            "best_smape": 2.8225
+            "best_model": "Drift",
+            "best_smape": 2.5203
         },
         {
             "port": "LIVORNO",
             "container_type": "40HC",
             "target_variable": "inferred_demand",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 866.3333,
+                    "rmse": 995.2573,
+                    "smape": 4.9823,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 362.3333,
+                    "rmse": 371.4552,
+                    "smape": 2.0611,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 677.0,
+                    "rmse": 835.6629,
+                    "smape": 3.8636,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 863.942,
+                    "rmse": 992.6952,
+                    "smape": 4.9681,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 866.3333,
+                    "rmse": 995.2573,
+                    "smape": 4.9823,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 769.5767,
+                    "rmse": 888.8343,
+                    "smape": 4.4096,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 191.3268,
@@ -828,9 +1948,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 212.2884,
-                    "rmse": 226.3395,
-                    "smape": 1.2004,
+                    "mae": 211.4257,
+                    "rmse": 225.4809,
+                    "smape": 1.1955,
                     "is_best_model": false
                 },
                 {
@@ -841,10 +1961,17 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 435.8895,
-                    "rmse": 453.2398,
-                    "smape": 2.4801,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 435.602,
+                    "rmse": 452.9486,
+                    "smape": 2.4784,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 435.602,
+                    "rmse": 452.9486,
+                    "smape": 2.4784,
                     "is_best_model": false
                 }
             ],
@@ -857,6 +1984,48 @@
             "target_variable": "inferred_supply",
             "models_evaluated": [
                 {
+                    "model_name": "Naive",
+                    "mae": 845.0,
+                    "rmse": 1023.6775,
+                    "smape": 6.4809,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 346.3333,
+                    "rmse": 416.7961,
+                    "smape": 2.596,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 716.6667,
+                    "rmse": 834.4427,
+                    "smape": 5.4574,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 843.9565,
+                    "rmse": 1022.5804,
+                    "smape": 6.4725,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 845.0,
+                    "rmse": 1023.6775,
+                    "smape": 6.4809,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 1461.3131,
+                    "rmse": 1659.6824,
+                    "smape": 11.5684,
+                    "is_best_model": false
+                },
+                {
                     "model_name": "Theta",
                     "mae": 390.6851,
                     "rmse": 455.0316,
@@ -865,10 +2034,10 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 383.0095,
-                    "rmse": 454.4031,
-                    "smape": 2.8701,
-                    "is_best_model": true
+                    "mae": 390.5181,
+                    "rmse": 462.2595,
+                    "smape": 2.9278,
+                    "is_best_model": false
                 },
                 {
                     "model_name": "RandomForest",
@@ -878,15 +2047,22 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 703.8304,
-                    "rmse": 787.0054,
-                    "smape": 5.3709,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 706.3333,
+                    "rmse": 789.6917,
+                    "smape": 5.3907,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 706.3333,
+                    "rmse": 789.6917,
+                    "smape": 5.3907,
                     "is_best_model": false
                 }
             ],
-            "best_model": "HoltWinters",
-            "best_smape": 2.8701
+            "best_model": "SeasonalNaive",
+            "best_smape": 2.596
         },
         {
             "port": "TRIESTE",
@@ -894,17 +2070,59 @@
             "target_variable": "balance",
             "models_evaluated": [
                 {
+                    "model_name": "Naive",
+                    "mae": 146.6667,
+                    "rmse": 203.1633,
+                    "smape": 6.8131,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 120.0,
+                    "rmse": 165.4509,
+                    "smape": 5.4989,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 137.8889,
+                    "rmse": 191.4863,
+                    "smape": 6.3848,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 145.6232,
+                    "rmse": 201.8603,
+                    "smape": 6.7618,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 148.0583,
+                    "rmse": 205.2641,
+                    "smape": 6.8814,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 147.3565,
+                    "rmse": 204.3694,
+                    "smape": 6.8469,
+                    "is_best_model": false
+                },
+                {
                     "model_name": "Theta",
                     "mae": 126.0232,
                     "rmse": 144.6125,
                     "smape": 5.8337,
-                    "is_best_model": true
+                    "is_best_model": false
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 127.5647,
-                    "rmse": 144.3389,
-                    "smape": 5.9096,
+                    "mae": 127.5367,
+                    "rmse": 144.1523,
+                    "smape": 5.9085,
                     "is_best_model": false
                 },
                 {
@@ -915,21 +2133,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 126.5038,
-                    "rmse": 161.8538,
-                    "smape": 5.8419,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 126.4944,
+                    "rmse": 161.7744,
+                    "smape": 5.8415,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 126.4944,
+                    "rmse": 161.7744,
+                    "smape": 5.8415,
                     "is_best_model": false
                 }
             ],
-            "best_model": "Theta",
-            "best_smape": 5.8337
+            "best_model": "SeasonalNaive",
+            "best_smape": 5.4989
         },
         {
             "port": "TRIESTE",
             "container_type": "20DV",
             "target_variable": "inferred_demand",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 230.0,
+                    "rmse": 319.3817,
+                    "smape": 2.6882,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 120.3333,
+                    "rmse": 138.5123,
+                    "smape": 1.4011,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 232.0,
+                    "rmse": 320.825,
+                    "smape": 2.7122,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 227.9348,
+                    "rmse": 317.3407,
+                    "smape": 2.6635,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 230.0,
+                    "rmse": 319.3817,
+                    "smape": 2.6882,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 128.0,
+                    "rmse": 150.8973,
+                    "smape": 1.5002,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 103.7706,
@@ -939,9 +2206,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 88.8754,
-                    "rmse": 103.9902,
-                    "smape": 1.0385,
+                    "mae": 87.4228,
+                    "rmse": 102.6864,
+                    "smape": 1.0218,
                     "is_best_model": false
                 },
                 {
@@ -952,21 +2219,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 63.0204,
-                    "rmse": 92.7793,
-                    "smape": 0.7212,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 63.122,
+                    "rmse": 93.0555,
+                    "smape": 0.7224,
                     "is_best_model": true
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 63.122,
+                    "rmse": 93.0555,
+                    "smape": 0.7224,
+                    "is_best_model": false
                 }
             ],
-            "best_model": "Ensemble",
-            "best_smape": 0.7212
+            "best_model": "SimpleAverageEnsemble",
+            "best_smape": 0.7224
         },
         {
             "port": "TRIESTE",
             "container_type": "20DV",
             "target_variable": "inferred_supply",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 129.3333,
+                    "rmse": 137.0474,
+                    "smape": 2.0267,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 99.0,
+                    "rmse": 102.9741,
+                    "smape": 1.5495,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 157.6667,
+                    "rmse": 164.0539,
+                    "smape": 2.4767,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 128.8333,
+                    "rmse": 136.5136,
+                    "smape": 2.0188,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 129.3333,
+                    "rmse": 137.0474,
+                    "smape": 2.0267,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 39.9402,
+                    "rmse": 45.3169,
+                    "smape": 0.6233,
+                    "is_best_model": true
+                },
                 {
                     "model_name": "Theta",
                     "mae": 123.8418,
@@ -976,9 +2292,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 108.913,
-                    "rmse": 125.975,
-                    "smape": 1.6783,
+                    "mae": 109.087,
+                    "rmse": 126.159,
+                    "smape": 1.6808,
                     "is_best_model": false
                 },
                 {
@@ -989,21 +2305,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 71.3244,
-                    "rmse": 86.7966,
-                    "smape": 1.1127,
-                    "is_best_model": true
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 71.2872,
+                    "rmse": 86.7632,
+                    "smape": 1.1121,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 71.2872,
+                    "rmse": 86.7632,
+                    "smape": 1.1121,
+                    "is_best_model": false
                 }
             ],
-            "best_model": "Ensemble",
-            "best_smape": 1.1127
+            "best_model": "Holt",
+            "best_smape": 0.6233
         },
         {
             "port": "TRIESTE",
             "container_type": "40HC",
             "target_variable": "balance",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 255.0,
+                    "rmse": 289.1488,
+                    "smape": 7.6916,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 176.3333,
+                    "rmse": 193.1019,
+                    "smape": 5.2736,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 200.6667,
+                    "rmse": 241.5409,
+                    "smape": 6.0851,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 255.0,
+                    "rmse": 290.5294,
+                    "smape": 7.6915,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 247.3044,
+                    "rmse": 277.1253,
+                    "smape": 7.4692,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 247.4074,
+                    "rmse": 278.0841,
+                    "smape": 7.4721,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 187.5251,
@@ -1013,10 +2378,10 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 186.3426,
-                    "rmse": 203.8887,
-                    "smape": 5.6802,
-                    "is_best_model": true
+                    "mae": 186.5905,
+                    "rmse": 204.1431,
+                    "smape": 5.6875,
+                    "is_best_model": false
                 },
                 {
                     "model_name": "RandomForest",
@@ -1026,21 +2391,70 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 211.3537,
-                    "rmse": 232.9032,
-                    "smape": 6.4185,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 211.4363,
+                    "rmse": 232.9884,
+                    "smape": 6.4209,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 211.4363,
+                    "rmse": 232.9884,
+                    "smape": 6.4209,
                     "is_best_model": false
                 }
             ],
-            "best_model": "HoltWinters",
-            "best_smape": 5.6802
+            "best_model": "SeasonalNaive",
+            "best_smape": 5.2736
         },
         {
             "port": "TRIESTE",
             "container_type": "40HC",
             "target_variable": "inferred_demand",
             "models_evaluated": [
+                {
+                    "model_name": "Naive",
+                    "mae": 486.0,
+                    "rmse": 599.5737,
+                    "smape": 3.7139,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 170.0,
+                    "rmse": 171.3359,
+                    "smape": 1.3009,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 398.2222,
+                    "rmse": 468.8352,
+                    "smape": 3.0278,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 478.1957,
+                    "rmse": 591.3876,
+                    "smape": 3.6526,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 486.0,
+                    "rmse": 599.5737,
+                    "smape": 3.7139,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 690.4878,
+                    "rmse": 815.0743,
+                    "smape": 5.3355,
+                    "is_best_model": false
+                },
                 {
                     "model_name": "Theta",
                     "mae": 52.1647,
@@ -1050,9 +2464,9 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 58.6308,
-                    "rmse": 67.6891,
-                    "smape": 0.4451,
+                    "mae": 58.9971,
+                    "rmse": 67.9833,
+                    "smape": 0.4478,
                     "is_best_model": false
                 },
                 {
@@ -1063,10 +2477,17 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 405.6703,
-                    "rmse": 453.1882,
-                    "smape": 3.0923,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 405.7924,
+                    "rmse": 453.3075,
+                    "smape": 3.0932,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 405.7924,
+                    "rmse": 453.3075,
+                    "smape": 3.0932,
                     "is_best_model": false
                 }
             ],
@@ -1079,6 +2500,48 @@
             "target_variable": "inferred_supply",
             "models_evaluated": [
                 {
+                    "model_name": "Naive",
+                    "mae": 645.0,
+                    "rmse": 654.8249,
+                    "smape": 6.7236,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SeasonalNaive",
+                    "mae": 253.0,
+                    "rmse": 264.301,
+                    "smape": 2.589,
+                    "is_best_model": true
+                },
+                {
+                    "model_name": "MovingAverage",
+                    "mae": 306.6667,
+                    "rmse": 326.8258,
+                    "smape": 3.1378,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Drift",
+                    "mae": 643.4348,
+                    "rmse": 653.1765,
+                    "smape": 6.7067,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "SES",
+                    "mae": 645.0,
+                    "rmse": 654.8249,
+                    "smape": 6.7236,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "Holt",
+                    "mae": 1321.2628,
+                    "rmse": 1376.7534,
+                    "smape": 14.3296,
+                    "is_best_model": false
+                },
+                {
                     "model_name": "Theta",
                     "mae": 312.6922,
                     "rmse": 366.0766,
@@ -1087,10 +2550,10 @@
                 },
                 {
                     "model_name": "HoltWinters",
-                    "mae": 312.2661,
-                    "rmse": 359.1718,
-                    "smape": 3.2381,
-                    "is_best_model": true
+                    "mae": 312.561,
+                    "rmse": 359.4334,
+                    "smape": 3.2411,
+                    "is_best_model": false
                 },
                 {
                     "model_name": "RandomForest",
@@ -1100,40 +2563,47 @@
                     "is_best_model": false
                 },
                 {
-                    "model_name": "Ensemble",
-                    "mae": 476.615,
-                    "rmse": 496.9053,
-                    "smape": 4.9528,
+                    "model_name": "SimpleAverageEnsemble",
+                    "mae": 476.7133,
+                    "rmse": 497.0078,
+                    "smape": 4.9539,
+                    "is_best_model": false
+                },
+                {
+                    "model_name": "WeightedEnsemble",
+                    "mae": 476.7133,
+                    "rmse": 497.0078,
+                    "smape": 4.9539,
                     "is_best_model": false
                 }
             ],
-            "best_model": "HoltWinters",
-            "best_smape": 3.2381
+            "best_model": "SeasonalNaive",
+            "best_smape": 2.589
         }
     ],
     "aggregate_by_target": {
         "inferred_demand": {
-            "mean_mae": 183.3122,
-            "mean_rmse": 214.1276,
-            "mean_smape": 0.9331,
+            "mean_mae": 149.7022,
+            "mean_rmse": 178.6397,
+            "mean_smape": 0.7858,
             "series_count": 10
         },
         "inferred_supply": {
-            "mean_mae": 238.561,
-            "mean_rmse": 274.4244,
-            "mean_smape": 1.7421,
+            "mean_mae": 215.8825,
+            "mean_rmse": 248.957,
+            "mean_smape": 1.5331,
             "series_count": 10
         },
         "balance": {
-            "mean_mae": 151.6698,
-            "mean_rmse": 187.4557,
-            "mean_smape": 3.9044,
+            "mean_mae": 129.9855,
+            "mean_rmse": 161.221,
+            "mean_smape": 3.2934,
             "series_count": 10
         }
     },
     "overall_best_models": {
         "inferred_demand": "Theta",
-        "inferred_supply": "HoltWinters",
-        "balance": "Ensemble"
+        "inferred_supply": "SeasonalNaive",
+        "balance": "SeasonalNaive"
     }
 }

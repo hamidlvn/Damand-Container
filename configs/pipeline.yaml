@@ -7,7 +7,7 @@ reproducibility:
 
 
 ingestion:
-  raw_data_path: "C:/Users/Hamid/Desktop/Damand Container/data/Italy_EmptyContainer_withSize_2018_2025.csv"
+  raw_data_path: "data/Italy_EmptyContainer_withSize_2018_2025.csv"
   processed_data_dir: "data/processed/"
   processed_file_name: "cleaned_history.parquet"
   required_columns:

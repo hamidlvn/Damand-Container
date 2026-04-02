@@ -1,13 +1,13 @@
 {
-    "problem_id": "PROB-1072873f",
+    "problem_id": "PROB-12089c7b",
     "solver_name": "Heuristic",
     "status": "feasible",
-    "objective_value": 18215212.31,
+    "objective_value": 18333790.81,
     "total_cost": 0.0,
-    "service_level": 0.7492,
-    "unmet_demand_teu": 182152.12,
+    "service_level": 0.7472,
+    "unmet_demand_teu": 183337.91,
     "surplus_remaining_teu": 0.0,
-    "solve_time_seconds": 0.0,
+    "solve_time_seconds": 0.0004,
     "decisions": [],
     "diagnostics": {
         "budget_violations": [],

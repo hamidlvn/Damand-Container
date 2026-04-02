@@ -4,13 +4,13 @@
             "solver_name": "Heuristic",
             "status": "feasible",
             "status_rank": 1,
-            "objective_value": 18215212.31,
+            "objective_value": 18333790.81,
             "total_cost": 0.0,
-            "service_level": 0.7492,
-            "service_level_pct": 74.92,
-            "unmet_demand_teu": 182152.12,
+            "service_level": 0.7472,
+            "service_level_pct": 74.72,
+            "unmet_demand_teu": 183337.91,
             "surplus_remaining_teu": 0.0,
-            "solve_time_seconds": 0.0,
+            "solve_time_seconds": 0.0004,
             "total_moves": 0,
             "budget_adherence": true,
             "diagnostics": {
@@ -24,6 +24,6 @@
         "Heuristic"
     ],
     "failed_solvers": [
-        "data\\processed\\solver_result_milp.json"
+        "data/processed/solver_result_milp.json"
     ]
 }
