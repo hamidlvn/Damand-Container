@@ -32,7 +32,7 @@ class StageSpec:
 STAGES: List[StageSpec] = [
     StageSpec(
         key="ingestion",
-        display_name="Stage 1 – Data Ingestion",
+        display_name="Stage 1 — Data Loading",
         fn_path="src.ingestion.loader.ingest_dataset",
         depends_on=[],
         artifacts=["data/processed/cleaned_history.parquet"],

@@ -9,7 +9,7 @@ from src.ingestion.loader import ingest_dataset
 
 def render():
     render_page_header(
-        title_en="Stage 1 — Data Ingestion",
+        title_en="Stage 1 — Data Loading",
         title_fa="مرحله ۱ — دریافت و بارگذاری داده‌ها",
         desc_en="This stage loads raw historical port data and validates physical boundaries using strict Pydantic schemas. It establishes a robust foundation for all subsequent modeling.",
         desc_fa="در این مرحله، داده‌های خام تاریخچه بنادر دریافت شده و از لحاظ صحت مقادیر ფیزیکی تحت بررسی دقیق اسکیماهای Pydantic قرار می‌گیرد. این ساختار پایه تمام مراحل تحلیلی بعدی است."
